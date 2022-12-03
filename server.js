@@ -14,7 +14,7 @@ mongoose
   })
   .then(() => {
     app.listen(port, () => {
-      console.log(`Server is running on https://mernbackauth.onrender.com`);
+      console.log(`Server is running on ${port}`);
     });
   })
   .catch((error) => console.log(error));
